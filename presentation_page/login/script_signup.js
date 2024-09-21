@@ -38,7 +38,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
                 } else {
                     //alert('Usuário cadastrado com sucesso!');
                     // Redirecionar o usuário para a página de sucesso ou dashboard
-                    window.location.href = 'login.html';  // Coloque a página para onde deseja redirecionar
+                    window.location.href = 'login/login.html';  // Coloque a página para onde deseja redirecionar
                 }
             });
 
