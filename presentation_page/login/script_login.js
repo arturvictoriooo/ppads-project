@@ -10,7 +10,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
         if (session) {
             console.log('Sessão ativa:', session);
             // Redirecione para a página de treinos se a sessão estiver ativa
-            window.location.href = '/index/index/index.html';
+            window.location.href = 'index/index/index.html';
         }
 
         document.getElementById('login-form').addEventListener('submit', async (e) => {
