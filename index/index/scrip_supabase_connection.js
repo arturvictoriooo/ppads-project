@@ -15,7 +15,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
                     } else {
                         console.log('Logout realizado com sucesso!');
                         //alert('Logout realizado com sucesso!');
-                        window.location.href = '/index.html';  // Altere o caminho conforme necessário
+                        window.location.href = 'presentation_page/index.html';
                     }
                 });
             } else {
